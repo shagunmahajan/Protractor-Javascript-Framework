@@ -34,7 +34,7 @@ This is Test Automation framework designed using Protractor, Jasmine and Javascr
 ├───spec                           # This folder contains test case files
 ├───testData                       # This folder contains test data
 │   └───utility.js                 # This file contains functions related to excel 
-│   ├───dataFile<Env>
+│   ├───data.xlsx
 └───config.js                      # This file contains framework configuration
 ```
 
