@@ -39,16 +39,16 @@ exports.config = {
 	},
 
 	specs: [
-		'./spec/customerLoginSpec.js',
-		'./spec/bankManagerLoginSpec.js',
-		'./spec/bankManagerAddCustomerSpec.js'
+		'./src/spec/customerLoginSpec.js',
+		'./src/spec/bankManagerLoginSpec.js',
+		'./src/spec/bankManagerAddCustomerSpec.js'
 
 	],
 
 	suites: {
 		BankManager: [
-			'./spec/bankManagerLoginSpec.js',
-			'./spec/bankManagerAddCustomerSpec.js'
+			'./src/spec/bankManagerLoginSpec.js',
+			'./src/spec/bankManagerAddCustomerSpec.js'
 		]
 	},
 

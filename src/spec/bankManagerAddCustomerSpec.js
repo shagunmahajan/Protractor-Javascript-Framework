@@ -1,7 +1,7 @@
 var Login = require('../pages/login.js')
 var Common = require('../pages/common.js')
 var BankManager = require('../pages/bankManager.js')
-var Utility = require('../testData/utility.js')
+var Utility = require('../../testData/utility.js')
 
 var login = new Login()
 var common = new Common()

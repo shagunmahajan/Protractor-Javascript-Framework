@@ -1,5 +1,4 @@
 var Common = function () {
-
 	this.launchApp = function () {
 		browser.get(browser.params.url)
 	}
